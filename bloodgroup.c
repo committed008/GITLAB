@@ -5,7 +5,7 @@ void main()
   int i;
   do
   {
-    printf("What is your first name? ");
+    printf("What is your first name B? ");
     scanf("%s", Name);
     do
     {
@@ -44,5 +44,5 @@ void main()
     printf("\nContinue (YES for Yes)? ");
     scanf("%s", answer);
   } while (strcmp(answer, "YES") == 0);
-  printf("Goodbye\n");
+  printf("Goodbye_B\n");
 }
