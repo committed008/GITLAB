@@ -6,10 +6,14 @@ void main()
   do
   {
 <<<<<<< HEAD
-    printf("What is your first name? ");
+<<<<<<< HEAD
+    printf("What is your first name A? ");
 =======
     printf("What is your first name A? ");
 >>>>>>> a54199d966d1ab408d6c576b0a554da4ff1c72b5
+=======
+    printf("What is your first name A? ");
+>>>>>>> a3e710bc9488916ed7912c4c7bc0000a47998182
     scanf("%s", Name);
     do
     {
@@ -49,8 +53,12 @@ void main()
     scanf("%s", answer);
   } while (strcmp(answer, "YES") == 0);
 <<<<<<< HEAD
+<<<<<<< HEAD
   printf("Goodbye_B\n");
 =======
   printf("Goodbye_A\n");
 >>>>>>> a54199d966d1ab408d6c576b0a554da4ff1c72b5
+=======
+  printf("Goodbye\n");
+>>>>>>> a3e710bc9488916ed7912c4c7bc0000a47998182
 }
